@@ -1,0 +1,34 @@
+{
+  "name": "glenn-packer-net-node",
+  "version": "1.0.0",
+  "description": "Node Back end for the glennpacker.net sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlennPacker/GlennPackerNetNode.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Glenn Packer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlennPacker/GlennPackerNetNode/issues"
+  },
+  "homepage": "https://github.com/GlennPacker/GlennPackerNetNode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
